@@ -1,31 +1,29 @@
-.Main_page {
-    background-color: black;
-    min-height: 100vh;
-    /* border: 1px solid black; */
-    padding: 30px;
-}
+
 
 .inside_main {
     background-image: url(./background.jpg);
-    background-repeat:repeat-y;
-   background-size: contain;
-    
+    background-repeat: repeat-y;
+  background-size: cover;
+    min-height: 100vh;
     padding: 30px;
 
 }
 
 .navbar {
-    background-color: rgba(16, 16, 16, 0.5);
-    border: 1px solid rgb(34, 34, 34);
+    background-color: transparent;
+    /* border: 1px solid rgb(34, 34, 34); */
     z-index: 1000;
     color: white;
     border-radius: 30px;
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
     padding-left: 20px !important;
 }
 
 .new a {
-    color: rgb(222, 222, 222) !important;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 10px;
+    color: blue !important;
 }
 
 .main_home_data {
@@ -33,5 +31,5 @@
 }
 
 .part1 {
-    height: 300px;
+    /* height: 300px; */
 }
