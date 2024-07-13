@@ -1,20 +1,37 @@
-.Main_page{
+.Main_page {
     background-color: black;
     min-height: 100vh;
     /* border: 1px solid black; */
     padding: 30px;
 }
-.inside_main{
-    background: rgb(12,13,13);
-    background: linear-gradient(90deg, rgba(12,13,13,1) 0%, rgba(10,11,10,1) 10%, rgba(21,15,18,1) 24%, rgba(43,16,39,1) 36%, rgba(34,14,28,1) 51%, rgba(35,27,88,1) 65%, rgba(44,46,131,1) 81%, rgba(146,50,147,1) 100%);
-    min-height: 100vh;
+
+.inside_main {
+    background-image: url(./background.jpg);
+    background-repeat:repeat-y;
+   background-size: contain;
+    
     padding: 30px;
 
 }
-.navbar{
-    background-color: rgb(203, 202, 202);
-    border: 1px solid black;
+
+.navbar {
+    background-color: rgba(16, 16, 16, 0.5);
+    border: 1px solid rgb(34, 34, 34);
     z-index: 1000;
     color: white;
     border-radius: 30px;
+    backdrop-filter: blur(2px);
+    padding-left: 20px !important;
+}
+
+.new a {
+    color: rgb(222, 222, 222) !important;
+}
+
+.main_home_data {
+    padding: 20px;
+}
+
+.part1 {
+    height: 300px;
 }
