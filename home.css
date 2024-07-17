@@ -83,6 +83,20 @@
     
     }
     .part1{
-        margin-top: 40px;
+        margin-top: 60px;
     }
+    .profile{
+        margin-top: 20px;
+    }
+  }
+
+
+  .icons i{
+    font-size: 30px;
+    color: white;
+  }
+  .icons i:hover{
+    color: #00ABF0;
+    /* box-shadow: 0 0 50px 6px #00ABF0; */
+cursor: pointer;
   }
