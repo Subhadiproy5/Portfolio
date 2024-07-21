@@ -1,0 +1,155 @@
+.inside_main {
+    background-color: #081B29;
+    /* min-height: 100vh; */
+    /* padding: 30px; */
+
+}
+
+.navbar {
+    background-color: #081B29;
+    /* border: 1px solid rgb(34, 34, 34); */
+    width: 100%;
+    z-index: 1000;
+    color: white;
+    /* border-radius: 30px; */
+    /* backdrop-filter: blur(2px); */
+    padding-left: 20px !important;
+    position: fixed !important;
+}
+
+.new a {
+    color: white;
+}
+
+.active {
+    color: #00ABF0 !important;
+}
+
+.new a:hover {
+    color: #00ABF0;
+}
+
+.main_home_data {
+    min-height: 100vh;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    /* border: 1px solid rgb(231, 231, 231); */
+    padding: 30px;
+/* margin-top: 20px; */
+}
+
+.part2 {
+    /* border: 1px solid rgb(245, 245, 245); */
+    /* height: 100vh; */
+    text-align: center;
+    margin-top: 50px ;
+}
+
+.part2 h1 {
+    /* margin-bottom: 60px; */
+    color: white;
+}
+
+.part2 h3 {
+    margin-top: 60px;
+    color: #00ABF0;
+}
+
+.part1 p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.part1 h1 {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+.profile {
+    /* background-color: #00ABF0; */
+    border-radius: 100%;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    /* padding: 10px; */
+    border: 5px solid #00ABF0;
+    box-shadow: 0 0 50px 6px #00ABF0;
+    margin-top: 50px;
+}
+
+.profile img {
+    height: 270px;
+    /* position: absolute; */
+}
+
+.part2 {
+    display: grid;
+    justify-content: center;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+
+
+.icons i {
+    font-size: 30px;
+    color: white;
+}
+
+.icons i:hover {
+    color: #00ABF0;
+    /* box-shadow: 0 0 50px 6px #00ABF0; */
+    cursor: pointer;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+}
+.codingSkills{
+    border: 1px solid #00ABF0;
+    padding: 10px;
+}
+.OthesSkills{
+    border: 1px solid #00ABF0
+
+}
+
+@media screen and (max-width: 600px) {
+    .part2 {
+        margin-top: 50px;
+    }
+
+    .main_home_data {
+        min-height: 100vh;
+        display: block;
+
+        align-items: center;
+        /* border: 1px solid rgb(231, 231, 231); */
+        padding: 30px;
+
+    }
+
+    .part1 {
+        margin-top: 60px;
+    }
+
+    .profile {
+        margin-top: 20px;
+    }
+    .skills{
+        display: block;
+        /* grid-template-columns: 1fr 1fr; */
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .OthesSkills{
+       margin-top: 20px;
+    
+    }
+}
+
+
